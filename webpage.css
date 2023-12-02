@@ -1,0 +1,63 @@
+*{margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;}
+body{
+    background-color: gray;
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+}
+nav a{
+    font-weight: bold;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: .5s;
+    
+}
+.login,.sign{float: right;}
+a:hover{color: orange;}
+marquee{color: tomato;
+    text-shadow: 6px 3px 8px  black;
+letter-spacing: 4px;
+font-weight: 600;}
+/* contact*/
+
+div>a{text-decoration: none;
+font-size: larger;
+font-weight: bold;
+margin: 4px;
+color: yellow;
+display: inline;
+bottom: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+/* document page  */
+.h1{text-align: center;
+color: orange;}
+.pdf{text-align: justify;
+display: inline;
+padding: 2px;}
+.pdfdownload{float: right;}
+button{width: 150px;
+height: 30px;
+margin: 10px 5px;
+border-radius: 4px;
+color: white;
+transition: .5s;
+font-size: larger;
+background-color: rgb(54, 189, 243);}
+button:hover{background-color: rgb(64, 231, 64);}
